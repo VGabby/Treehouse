@@ -1,0 +1,21 @@
+# Control flow test
+a = 2
+b = 3
+if a == 1
+	puts a
+elseif b = 0
+	puts b
+else 
+	puts "Nothing"
+end	
+
+test = "a"
+case test 
+when "a" 
+	puts test
+when "b"
+	puts "Wack"
+when false
+	puts "False"
+end
+
